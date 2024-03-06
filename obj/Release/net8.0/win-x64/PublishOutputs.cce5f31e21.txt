@@ -1,0 +1,2 @@
+C:\Users\carri\Desktop\lol\bin\Release\net8.0\win-x64\publish\lol.pdb
+C:\Users\carri\Desktop\lol\bin\Release\net8.0\win-x64\publish\lol.exe

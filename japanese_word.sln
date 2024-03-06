@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "japanese_word", "japanese_word.csproj", "{5318D1DF-4ECC-4332-8EF9-4DCB6E7EADE9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5318D1DF-4ECC-4332-8EF9-4DCB6E7EADE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5318D1DF-4ECC-4332-8EF9-4DCB6E7EADE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5318D1DF-4ECC-4332-8EF9-4DCB6E7EADE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5318D1DF-4ECC-4332-8EF9-4DCB6E7EADE9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {87A4CDA3-CBDC-481D-AD42-D5E9713D78A0}
+	EndGlobalSection
+EndGlobal
