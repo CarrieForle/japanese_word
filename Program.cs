@@ -26,16 +26,16 @@ public class Program
             aliases: ["-m", "--mode"],
             description: "Determine the type of test. Default to description test.",
             getDefaultValue: DefaultRunOption);
-        Option<string> filePathOption = new(
-            aliases: ["-f", "--file"],
-            description: "The file to to read from.",
+        Argument<string> filePathArgument = new(
+            name: "file",
+            description: "The path of the file to read from.",
             getDefaultValue: DefaultFilePath);
 
         RootCommand rootCommand = new("Test your Japanese skills!");
         rootCommand.AddOption(runOption);
-        rootCommand.AddOption(filePathOption);
+        rootCommand.AddArgument(filePathArgument);
 
-        rootCommand.SetHandler(Run, runOption, filePathOption);
+        rootCommand.SetHandler(Run, runOption, filePathArgument);
 
         await rootCommand.InvokeAsync(args);    
     }
