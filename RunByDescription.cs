@@ -83,7 +83,10 @@ class RunByDescription : IRun
                         Console.WriteLine(vo.description);
                     }
 
-                    Console.ReadLine();
+                    if (Console.ReadLine() == "q") {
+                        return;
+                    }
+
                     Console.Write($"\t{vo.word}");
 
                     if (vo.pronunciation.Trim() != string.Empty)

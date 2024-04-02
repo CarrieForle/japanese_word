@@ -83,7 +83,10 @@ public class RunByPronunciation : IRun
                         Console.WriteLine(vo.word);
                     }
 
-                    Console.ReadLine();
+                    if (Console.ReadLine() == "q") {
+                        return;
+                    }
+                    
                     Console.Write($"\t{vo.word}");
 
                     if (vo.pronunciation.Trim() != string.Empty)
